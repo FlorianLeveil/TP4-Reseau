@@ -304,7 +304,8 @@ Interface : 10.33.2.105 --- 0x17
 
 * afficher la table ARP
 ```
-
+[root@vm1 network-scripts]# ip neigh show
+10.1.0.1 dev enp0s3 lladdr 0a:00:27:00:00:16 REACHABLE
 ```
 * activer la carte NAT
 ```
@@ -321,7 +322,7 @@ Interface : 10.33.2.105 --- 0x17
 **expliquer le(s) changement(s)**
  expliquer quelle machine porte l'IP qui vient de pop dans cette table ARP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODAxOTkzNDcsLTQ3OTg2MTIxLC0yMT
-Y1MjA0NzAsLTMyNjQzMDE2NSwtMTk2NjcwODg3OSwyMTM2ODA5
-MjUyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTg2NTg5MjA4NiwtMTg4MDE5OTM0NywtND
+c5ODYxMjEsLTIxNjUyMDQ3MCwtMzI2NDMwMTY1LC0xOTY2NzA4
+ODc5LDIxMzY4MDkyNTIsNzMwOTk4MTE2XX0=
 -->
