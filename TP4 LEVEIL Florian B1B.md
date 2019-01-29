@@ -57,8 +57,16 @@ PING vm3.tp4 (10.2.0.254) 56(84) bytes of data.
 ```
 ## 3. Mise en place du routage statique
 **sur  `router1`** :
+* activer l'IPv4 Forwarding:
+```
+[root@vm3 ~]# sudo sysctl -w net.ipv4.conf.all.forwarding=1
+net.ipv4.conf.all.forwarding = 1
+```
+* désactiver le firewal:
+```
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyNTYxMDg2LC0xOTY2NzA4ODc5LDIxMz
+eyJoaXN0b3J5IjpbMjMwNjgyMTgyLC0xOTY2NzA4ODc5LDIxMz
 Y4MDkyNTIsNzMwOTk4MTE2XX0=
 -->
