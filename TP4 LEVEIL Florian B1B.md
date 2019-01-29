@@ -34,7 +34,18 @@ VM Routeur:
 [root@vm3 ~]# hostname
 vm3.tp4
 ```
+
+**Ping:**
+
+Client > Routeur:
+```
+
+```
+Serveur > Routeur:
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTAwNzY3NTYsLTE5NjY3MDg4NzksMj
+eyJoaXN0b3J5IjpbLTEzNzcyODU3MTEsLTE5NjY3MDg4NzksMj
 EzNjgwOTI1Miw3MzA5OTgxMTZdfQ==
 -->
