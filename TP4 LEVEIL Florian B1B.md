@@ -300,15 +300,28 @@ Interface : 10.33.2.105 --- 0x17
   
 ### **D. Manip 4**
 
-**Sur  `client1`**
-afficher la table ARP
- activer la carte NAT
-joindre internet (`curl google.com`  par exemple)
-afficher la table ARP
+**Sur  `client1`:**
+
+* afficher la table ARP
+```
+
+```
+* activer la carte NAT
+```
+
+```
+* joindre internet (`curl google.com`  par exemple)
+```
+
+```
+* afficher la table ARP
+```
+
+```
 **expliquer le(s) changement(s)**
  expliquer quelle machine porte l'IP qui vient de pop dans cette table ARP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMTI5MjMwMSwtNDc5ODYxMjEsLTIxNj
-UyMDQ3MCwtMzI2NDMwMTY1LC0xOTY2NzA4ODc5LDIxMzY4MDky
-NTIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE4ODAxOTkzNDcsLTQ3OTg2MTIxLC0yMT
+Y1MjA0NzAsLTMyNjQzMDE2NSwtMTk2NjcwODg3OSwyMTM2ODA5
+MjUyLDczMDk5ODExNl19
 -->
