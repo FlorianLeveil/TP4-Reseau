@@ -144,15 +144,16 @@ traceroute to vm1.tp4 (10.1.0.10), 30 hops max, 60 byte packets
 [root@vm2 ~]# ip neigh show
 10.2.0.1 dev enp0s3 lladdr 0a:00:27:00:00:0d REACHABLE
 ```
+ (C'est l'adresse de Broadcast)
 
 * Sur  `client1`
-    -   ping  `server1`
-    -   afficher la table ARP
+    * ping  `server1`:
+    - afficher la table ARP
     -   **expliquer le changement**
 * Sur  `server1`
     -   afficher la table ARP
     -   **expliquer le changement**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc3Mzk2NDY1LC0zMjY0MzAxNjUsLTE5Nj
+eyJoaXN0b3J5IjpbLTM5MTU2NjA5LC0zMjY0MzAxNjUsLTE5Nj
 Y3MDg4NzksMjEzNjgwOTI1Miw3MzA5OTgxMTZdfQ==
 -->
