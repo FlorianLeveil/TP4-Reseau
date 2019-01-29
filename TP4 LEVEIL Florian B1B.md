@@ -64,9 +64,19 @@ net.ipv4.conf.all.forwarding = 1
 ```
 * désactiver le firewal:
 ```
-
+[root@vm3 ~]# sudo systemctl disable firewalld
+Removed symlink /etc/systemd/system/multi-user.target.wants/firewalld.service.
+Removed symlink /etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service.
 ```
+* ip route show:
+```
+[root@vm3 ~]# ip route show
+10.1.0.0/24 dev enp0s3 proto kernel scope link src 10.1.0.254 metric 100
+10.2.0.0/24 dev enp0s8 proto kernel scope link src 10.2.0.254 metric 101
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMwNjgyMTgyLC0xOTY2NzA4ODc5LDIxMz
-Y4MDkyNTIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTM1ODE4OTQzNSwtMTk2NjcwODg3OSwyMT
+M2ODA5MjUyLDczMDk5ODExNl19
 -->
