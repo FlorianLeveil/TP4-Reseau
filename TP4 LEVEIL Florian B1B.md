@@ -204,9 +204,19 @@ PING vm2.tp4 (10.2.0.10) 56(84) bytes of data.
 ```
 Deux adresses ce sont ajouté c'est normal, la premier c'est l'ip du client qui a envoyé un ping, et la deuxième c'est l'ip du serveur qui à renvoyé un pong.
 
+### **C. Manip 3**
 
+**Sur l'hôte (votre PC)**
+ * afficher la table ARP
+```
+
+```
+  * afficher de nouveau la table ARP
+    -   attendre un peu
+    -   afficher encore la table ARP
+    -   **expliquer le(s) changement(s)**  (c'est lié à votre  [passerelle](https://github.com/It4lik/B1-Reseau-2018/blob/master/cours/lexique.md#passerelle-ou-gateway)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjI4NjQ1NzcsLTIxNjUyMDQ3MCwtMz
+eyJoaXN0b3J5IjpbLTE3NTEwODIwNTAsLTIxNjUyMDQ3MCwtMz
 I2NDMwMTY1LC0xOTY2NzA4ODc5LDIxMzY4MDkyNTIsNzMwOTk4
 MTE2XX0=
 -->
