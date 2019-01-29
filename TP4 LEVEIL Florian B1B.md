@@ -197,11 +197,16 @@ PING vm2.tp4 (10.2.0.10) 56(84) bytes of data.
 **Sur  `router1`:**
   * afficher la table ARP
 ```
-
+[root@vm3 ~]# ip neigh show
+10.1.0.10 dev enp0s3 lladdr 08:00:27:06:2e:31 STALE
+10.2.0.10 dev enp0s8 lladdr 08:00:27:94:ae:9d STALE
+10.1.0.1 dev enp0s3 lladdr 0a:00:27:00:00:16 REACHABLE
 ```
-   **expliquer le(s) changement(s**
+Deux adresses ce sont ajouté c'est normal, la premier c'est l'ip du client qui a envoyé un ping, et la deuxième c'est l'ip du serveur qui à renvoyé un pong.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg1MjQ4NDE4LC0yMTY1MjA0NzAsLTMyNj
-QzMDE2NSwtMTk2NjcwODg3OSwyMTM2ODA5MjUyLDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbLTE3NjI4NjQ1NzcsLTIxNjUyMDQ3MCwtMz
+I2NDMwMTY1LC0xOTY2NzA4ODc5LDIxMzY4MDkyNTIsNzMwOTk4
+MTE2XX0=
 -->
