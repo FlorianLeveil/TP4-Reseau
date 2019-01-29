@@ -133,7 +133,11 @@ traceroute to vm1.tp4 (10.1.0.10), 30 hops max, 60 byte packets
 
 * Sur  `client1`
     * afficher la table ARP:
-    -   **expliquer la seule ligne visible**
+```
+[root@vm1 network-scripts]# ip neigh show
+10.1.0.1 dev enp0s3 lladdr 0a:00:27:00:00:16 REACHABLE
+```
+  **expliquer la seule ligne visible**
 * Sur  `server1`
     -   afficher la table ARP
     -   **expliquer la seule ligne visible**
@@ -145,6 +149,6 @@ traceroute to vm1.tp4 (10.1.0.10), 30 hops max, 60 byte packets
     -   afficher la table ARP
     -   **expliquer le changement**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDk3NTMyMzMsLTMyNjQzMDE2NSwtMT
-k2NjcwODg3OSwyMTM2ODA5MjUyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTUwNDEyNzQzNSwtMzI2NDMwMTY1LC0xOT
+Y2NzA4ODc5LDIxMzY4MDkyNTIsNzMwOTk4MTE2XX0=
 -->
