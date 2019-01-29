@@ -112,8 +112,9 @@ PING vm1.tp4 (10.1.0.10) 56(84) bytes of data.
 64 bytes from vm1.tp4 (10.1.0.10): icmp_seq=4 ttl=63 time=0.568 ms
 64 bytes from vm1.tp4 (10.1.0.10): icmp_seq=5 ttl=63 time=0.714 ms
 ```
-
+**Traceroute:**
+* Client > Serveur
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDU1MDk4NCwtMzI2NDMwMTY1LC0xOT
+eyJoaXN0b3J5IjpbMjAxNTI2NDMyOSwtMzI2NDMwMTY1LC0xOT
 Y2NzA4ODc5LDIxMzY4MDkyNTIsNzMwOTk4MTE2XX0=
 -->
