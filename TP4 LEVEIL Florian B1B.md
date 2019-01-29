@@ -297,8 +297,18 @@ Interface : 10.33.2.105 --- 0x17
 ```
   * Expliquer le(s) changement(s):
   Il y a eu de nouvelle connexions enregistrée quelque secondes. (Chaque ligne ce met à jour toute les  secondes environ)
+  
+### **D. Manip 4**
+
+Sr  `client1`
+    -   afficher la table ARP
+    -   activer la carte NAT
+    -   joindre internet (`curl google.com`  par exemple)
+    -   afficher la table ARP
+    -   **expliquer le(s) changement(s)**
+        -   expliquer quelle machine porte l'IP qui vient de pop dans cette table ARP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTI5NDQxMSwtNDc5ODYxMjEsLTIxNj
+eyJoaXN0b3J5IjpbMTgyNjA0NDYxNCwtNDc5ODYxMjEsLTIxNj
 UyMDQ3MCwtMzI2NDMwMTY1LC0xOTY2NzA4ODc5LDIxMzY4MDky
 NTIsNzMwOTk4MTE2XX0=
 -->
