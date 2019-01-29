@@ -309,7 +309,12 @@ Interface : 10.33.2.105 --- 0x17
 ```
 * activer la carte NAT
 ```
-Rajouter une carte réseau dans la VM
+3: enp0s10: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 08:00:27:20:37:a9 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.5.15/24 brd 10.0.5.255 scope global noprefixroute dynamic enp0s10
+       valid_lft 86117sec preferred_lft 86117sec
+    inet6 fe80::6baa:de39:c1ad:6865/64 scope link noprefixroute
+       valid_lft forever preferred_lft forever
 ```
 * joindre internet (`curl google.com`  par exemple)
 ```
@@ -322,7 +327,7 @@ Rajouter une carte réseau dans la VM
 **expliquer le(s) changement(s)**
  expliquer quelle machine porte l'IP qui vient de pop dans cette table ARP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjA1MDkxNTQsLTE4ODAxOTkzNDcsLT
-Q3OTg2MTIxLC0yMTY1MjA0NzAsLTMyNjQzMDE2NSwtMTk2Njcw
-ODg3OSwyMTM2ODA5MjUyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTQ5NjE1NjA2NCwtMTg4MDE5OTM0NywtND
+c5ODYxMjEsLTIxNjUyMDQ3MCwtMzI2NDMwMTY1LC0xOTY2NzA4
+ODc5LDIxMzY4MDkyNTIsNzMwOTk4MTE2XX0=
 -->
