@@ -163,14 +163,17 @@ PING vm2.tp4 (10.2.0.10) 56(84) bytes of data.
 10.1.0.254 dev enp0s3 lladdr 08:00:27:88:74:c4 DELAY
 10.1.0.1 dev enp0s3 lladdr 0a:00:27:00:00:16 DELAY
 ```
- Comme on à ping le serveur, ça garde en mémoire pendant environ 60Secondes, la mac de 
+ Comme on à ping le serveur, ça garde en mémoire pendant environ 60Secondes, la mac de la personne que
+ 
 **Sur  `server1`:**
 * afficher la table ARP
 ```
-
+[root@vm2 ~]# ip neigh show
+10.2.0.254 dev enp0s3 lladdr 08:00:27:41:1a:1b STALE
+10.2.0.1 dev enp0s3 lladdr 0a:00:27:00:00:0d REACHABLE
 ```
  **expliquer le changement**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTcxMzI3MSwtMzI2NDMwMTY1LC0xOT
-Y2NzA4ODc5LDIxMzY4MDkyNTIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbODIxMTU2NzEsLTMyNjQzMDE2NSwtMTk2Nj
+cwODg3OSwyMTM2ODA5MjUyLDczMDk5ODExNl19
 -->
