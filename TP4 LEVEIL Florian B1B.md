@@ -17,7 +17,21 @@ Configuration VM Routeur:
 10.1.0.0/24 dev enp0s3 proto kernel scope link src 10.1.0.254 metric 100
 10.2.0.0/24 dev enp0s8 proto kernel scope link src 10.2.0.254 metric 101
 ```
+
+**Nom de domaine:**
+VM Client:
+```
+
+```
+VM Serveur:
+```
+
+```
+VM Routeur:
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NDYzOTc1MCwtMTk2NjcwODg3OSwyMT
-M2ODA5MjUyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTIxMTkyNzE5MjIsLTE5NjY3MDg4NzksMj
+EzNjgwOTI1Miw3MzA5OTgxMTZdfQ==
 -->
