@@ -163,7 +163,7 @@ PING vm2.tp4 (10.2.0.10) 56(84) bytes of data.
 10.1.0.254 dev enp0s3 lladdr 08:00:27:88:74:c4 DELAY
 10.1.0.1 dev enp0s3 lladdr 0a:00:27:00:00:16 DELAY
 ```
- Comme on à ping le serveur, ça garde en mémoire pendant environ 60Secondes, la mac de la personne que
+ Ça enregistre l'ip et la mac, pendant 60 secondes environ
  
 **Sur  `server1`:**
 * afficher la table ARP
@@ -174,6 +174,6 @@ PING vm2.tp4 (10.2.0.10) 56(84) bytes of data.
 ```
  **expliquer le changement**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIxMTU2NzEsLTMyNjQzMDE2NSwtMTk2Nj
+eyJoaXN0b3J5IjpbMjg2MDcyNzgsLTMyNjQzMDE2NSwtMTk2Nj
 cwODg3OSwyMTM2ODA5MjUyLDczMDk5ODExNl19
 -->
