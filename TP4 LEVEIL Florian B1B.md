@@ -137,7 +137,7 @@ traceroute to vm1.tp4 (10.1.0.10), 30 hops max, 60 byte packets
 [root@vm1 network-scripts]# ip neigh show
 10.1.0.1 dev enp0s3 lladdr 0a:00:27:00:00:16 REACHABLE
 ```
- (
+ (C'est l'adresse de Broadcast)
 * Sur  `server1`
     -   afficher la table ARP
     -   **expliquer la seule ligne visible**
@@ -149,6 +149,6 @@ traceroute to vm1.tp4 (10.1.0.10), 30 hops max, 60 byte packets
     -   afficher la table ARP
     -   **expliquer le changement**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTMwNTkyMzYsLTMyNjQzMDE2NSwtMT
-k2NjcwODg3OSwyMTM2ODA5MjUyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbOTg0NjA4NTc5LC0zMjY0MzAxNjUsLTE5Nj
+Y3MDg4NzksMjEzNjgwOTI1Miw3MzA5OTgxMTZdfQ==
 -->
