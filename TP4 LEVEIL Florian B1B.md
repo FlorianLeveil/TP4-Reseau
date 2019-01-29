@@ -113,8 +113,18 @@ PING vm1.tp4 (10.1.0.10) 56(84) bytes of data.
 64 bytes from vm1.tp4 (10.1.0.10): icmp_seq=5 ttl=63 time=0.714 ms
 ```
 **Traceroute:**
-* Client > Serveur
+* Client > Serveur:
+```
+[root@vm1 network-scripts]# traceroute vm2.tp4
+traceroute to vm2.tp4 (10.2.0.10), 30 hops max, 60 byte packets
+ 1  vm3.tp4 (10.1.0.254)  0.364 ms  0.273 ms  0.207 ms
+ 2  vm3.tp4 (10.1.0.254)  0.147 ms !X  0.241 ms !X  0.247 ms !X
+```
+* Serveur > Client:
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTI2NDMyOSwtMzI2NDMwMTY1LC0xOT
-Y2NzA4ODc5LDIxMzY4MDkyNTIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTkyODYwNjcyLC0zMjY0MzAxNjUsLTE5Nj
+Y3MDg4NzksMjEzNjgwOTI1Miw3MzA5OTgxMTZdfQ==
 -->
