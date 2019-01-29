@@ -40,12 +40,11 @@ vm3.tp4
 Client > Routeur:
 ```
 [root@vm1 ~]# ping vm3.tp4
-PING 10.1.0.254 (10.1.0.254) 56(84) bytes of data.
-64 bytes from 10.1.0.254: icmp_seq=1 ttl=64 time=0.340 ms
-64 bytes from 10.1.0.254: icmp_seq=2 ttl=64 time=0.369 ms
-64 bytes from 10.1.0.254: icmp_seq=3 ttl=64 time=0.341 ms
-64 bytes from 10.1.0.254: icmp_seq=4 ttl=64 time=0.332 ms
-64 bytes from 10.1.0.254: icmp_seq=5 ttl=64 time=0.357 ms
+PING vm3.tp4 (10.1.0.254) 56(84) bytes of data.
+64 bytes from vm3.tp4 (10.1.0.254): icmp_seq=1 ttl=64 time=0.346 ms
+64 bytes from vm3.tp4 (10.1.0.254): icmp_seq=2 ttl=64 time=0.408 ms
+64 bytes from vm3.tp4 (10.1.0.254): icmp_seq=3 ttl=64 time=0.360 ms
+64 bytes from vm3.tp4 (10.1.0.254): icmp_seq=4 ttl=64 time=0.361 ms
 ```
 Serveur > Routeur:
 ```
@@ -57,6 +56,6 @@ PING vm3.tp4 (10.2.0.254) 56(84) bytes of data.
 64 bytes from vm3.tp4 (10.2.0.254): icmp_seq=4 ttl=64 time=0.351 ms
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjM1NzE4MTYsLTE5NjY3MDg4NzksMj
-EzNjgwOTI1Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTIwMjM0MzE0OSwtMTk2NjcwODg3OSwyMT
+M2ODA5MjUyLDczMDk5ODExNl19
 -->
