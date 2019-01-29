@@ -150,7 +150,12 @@ traceroute to vm1.tp4 (10.1.0.10), 30 hops max, 60 byte packets
 **Sur  `client1`**:
  * ping  `server1`:
 ```
-
+[root@vm1 network-scripts]# ping vm2.tp4
+PING vm2.tp4 (10.2.0.10) 56(84) bytes of data.
+64 bytes from vm2.tp4 (10.2.0.10): icmp_seq=1 ttl=63 time=1.08 ms
+64 bytes from vm2.tp4 (10.2.0.10): icmp_seq=2 ttl=63 time=0.718 ms
+64 bytes from vm2.tp4 (10.2.0.10): icmp_seq=3 ttl=63 time=0.732 ms
+64 bytes from vm2.tp4 (10.2.0.10): icmp_seq=4 ttl=63 time=0.677 ms
 ```
  * afficher la table ARP
 ```
@@ -164,6 +169,6 @@ traceroute to vm1.tp4 (10.1.0.10), 30 hops max, 60 byte packets
 ```
  **expliquer le changement**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzg2MTQ0MDksLTMyNjQzMDE2NSwtMT
+eyJoaXN0b3J5IjpbLTE4MTU2NTM2NTUsLTMyNjQzMDE2NSwtMT
 k2NjcwODg3OSwyMTM2ODA5MjUyLDczMDk5ODExNl19
 -->
