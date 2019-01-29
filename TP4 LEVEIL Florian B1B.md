@@ -55,7 +55,10 @@ PING vm3.tp4 (10.2.0.254) 56(84) bytes of data.
 64 bytes from vm3.tp4 (10.2.0.254): icmp_seq=3 ttl=64 time=0.354 ms
 64 bytes from vm3.tp4 (10.2.0.254): icmp_seq=4 ttl=64 time=0.351 ms
 ```
+## 3. Mise en place du routage statique
+**sur  `router1`** :
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMjM0MzE0OSwtMTk2NjcwODg3OSwyMT
-M2ODA5MjUyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbOTgyNTYxMDg2LC0xOTY2NzA4ODc5LDIxMz
+Y4MDkyNTIsNzMwOTk4MTE2XX0=
 -->
