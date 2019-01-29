@@ -56,7 +56,7 @@ PING vm3.tp4 (10.2.0.254) 56(84) bytes of data.
 64 bytes from vm3.tp4 (10.2.0.254): icmp_seq=4 ttl=64 time=0.351 ms
 ```
 ## 3. Mise en place du routage statique
-**sur  `router1`:** 
+**Sur  `router1`:** 
 * activer l'IPv4 Forwarding:
 ```
 [root@vm3 ~]# sudo sysctl -w net.ipv4.conf.all.forwarding=1
@@ -75,7 +75,7 @@ Removed symlink /etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service.
 10.2.0.0/24 dev enp0s8 proto kernel scope link src 10.2.0.254 metric 101
 ```
 
-**sur  `client1`:**
+**Sur  `client1`:**
 * ip route show:
  ```
 [root@vm1 network-scripts]# ip route show
@@ -83,7 +83,7 @@ Removed symlink /etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service.
 10.2.0.0/24 via 10.1.0.254 dev enp0s3 proto static metric 100
 ```
 
-**sur  `serveur1`:**
+**Sur  `serveur1`:**
 * ip route show:
  ```
 [root@vm2 ~]# ip route show
@@ -91,8 +91,16 @@ Removed symlink /etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service.
 10.2.0.0/24 dev enp0s3 proto kernel scope link src 10.2.0.10 metric 100
 ```
 
+**Test:**
+* `client1`  doit pouvoir ping  `server1`:
+```
 
+```
+* `server1`  doit pouvoir ping  `client1`:
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMDM5ODExNCwtMzI2NDMwMTY1LC0xOT
-Y2NzA4ODc5LDIxMzY4MDkyNTIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE1OTQ2NDE0MTQsLTMyNjQzMDE2NSwtMT
+k2NjcwODg3OSwyMTM2ODA5MjUyLDczMDk5ODExNl19
 -->
