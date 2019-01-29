@@ -335,9 +335,9 @@ The document has moved
 
 * expliquer le(s) changement(s):
 
-Nous maintenant une ip en plus qui est l'IP de la cart
+Nous maintenant une ip/mac en plus qui appartient à la nouvelle carte réseau que nous avons activé.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1MDY1NTkzLC0xODgwMTk5MzQ3LC00Nz
+eyJoaXN0b3J5IjpbOTYwNjg2Mzg1LC0xODgwMTk5MzQ3LC00Nz
 k4NjEyMSwtMjE2NTIwNDcwLC0zMjY0MzAxNjUsLTE5NjY3MDg4
 NzksMjEzNjgwOTI1Miw3MzA5OTgxMTZdfQ==
 -->
