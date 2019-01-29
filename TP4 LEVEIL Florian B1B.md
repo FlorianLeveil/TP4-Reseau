@@ -163,7 +163,7 @@ PING vm2.tp4 (10.2.0.10) 56(84) bytes of data.
 10.1.0.254 dev enp0s3 lladdr 08:00:27:88:74:c4 DELAY
 10.1.0.1 dev enp0s3 lladdr 0a:00:27:00:00:16 DELAY
 ```
- Ça enregistre l'ip et la mac, pendant 60 secondes environ. (En l’occurrence c'est l'ip/mac de la gateway)
+ Ça enregistre l'ip et la mac, pendant 60 secondes environ. (En l’occurrence c'est l'ip/mac du Routeur)
  
 **Sur  `server1`:**
 * afficher la table ARP
@@ -172,9 +172,9 @@ PING vm2.tp4 (10.2.0.10) 56(84) bytes of data.
 10.2.0.254 dev enp0s3 lladdr 08:00:27:41:1a:1b STALE
 10.2.0.1 dev enp0s3 lladdr 0a:00:27:00:00:0d REACHABLE
 ```
- Ça enregistre l'ip et la mac, pendant 60 secondes environ par ce que la le client à fait un ping. (En l’occurrence c'est l'ip/mac de la gateway)
+ Ça enregistre l'ip et la mac, pendant 60 secondes environ par ce que la le client à fait un ping. (En l’occurrence c'est l'ip/mac du Routeur)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NjQ0ODAsLTMyNjQzMDE2NSwtMTk2Nj
-cwODg3OSwyMTM2ODA5MjUyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTUyMTI3NjAzMCwtMzI2NDMwMTY1LC0xOT
+Y2NzA4ODc5LDIxMzY4MDkyNTIsNzMwOTk4MTE2XX0=
 -->
