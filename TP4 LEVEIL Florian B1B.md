@@ -255,30 +255,50 @@ Interface : 10.33.2.105 --- 0x17
 ```
   * Afficher de nouveau la table ARP:
 ```
-Interface : 192.168.102.2 --- 0xc
+Interface : 192.168.102.2 --- 0xc
   Adresse Internet      Adresse physique      Type
   224.0.0.22            01-00-5e-00-00-16     statique
 
-Interface : 10.2.0.1 --- 0xd
+Interface : 10.2.0.1 --- 0xd
   Adresse Internet      Adresse physique      Type
   224.0.0.22            01-00-5e-00-00-16     statique
 
-Interface : 10.1.0.1 --- 0x16
+Interface : 10.1.0.1 --- 0x16
   Adresse Internet      Adresse physique      Type
   224.0.0.22            01-00-5e-00-00-16     statique
 
-Interface : 10.33.2.105 --- 0x17
+Interface : 10.33.2.105 --- 0x17
   Adresse Internet      Adresse physique      Type
   10.33.3.253           00-12-00-40-4c-bf     dynamique
   224.0.0.22            01-00-5e-00-00-16     statique
 ```
  * Afficher encore la table ARP:
 ```
+PS C:\WINDOWS\system32> arp -a
 
+Interface : 192.168.102.2 --- 0xc
+  Adresse Internet      Adresse physique      Type
+  224.0.0.22            01-00-5e-00-00-16     statique
+
+Interface : 10.2.0.1 --- 0xd
+  Adresse Internet      Adresse physique      Type
+  224.0.0.22            01-00-5e-00-00-16     statique
+
+Interface : 10.1.0.1 --- 0x16
+  Adresse Internet      Adresse physique      Type
+  224.0.0.22            01-00-5e-00-00-16     statique
+
+Interface : 10.33.2.105 --- 0x17
+  Adresse Internet      Adresse physique      Type
+  10.33.0.68            90-cd-b6-64-bc-e7     dynamique
+  10.33.2.41            08-d4-0c-c7-20-04     dynamique
+  10.33.3.253           00-12-00-40-4c-bf     dynamique
+  224.0.0.22            01-00-5e-00-00-16     statique
 ```
   * Expliquer le(s) changement(s):
+  Il y a eu de nouvelle connexions enregistrée quelque secondes. (Chaque
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgxOTIzMTA0LC00Nzk4NjEyMSwtMjE2NT
-IwNDcwLC0zMjY0MzAxNjUsLTE5NjY3MDg4NzksMjEzNjgwOTI1
-Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMjA3MTExNzY2NSwtNDc5ODYxMjEsLTIxNj
+UyMDQ3MCwtMzI2NDMwMTY1LC0xOTY2NzA4ODc5LDIxMzY4MDky
+NTIsNzMwOTk4MTE2XX0=
 -->
