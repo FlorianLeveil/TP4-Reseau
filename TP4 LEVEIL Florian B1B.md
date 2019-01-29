@@ -328,12 +328,16 @@ The document has moved
 ```
 * afficher la table ARP
 ```
-
+[root@vm1 ~]# ip neigh show
+10.0.5.2 dev enp0s10 lladdr 52:54:00:12:35:02 STALE
+10.1.0.1 dev enp0s3 lladdr 0a:00:27:00:00:16 REACHABLE
 ```
-**expliquer le(s) changement(s)**
- expliquer quelle machine porte l'IP qui vient de pop dans cette table ARP
+
+* expliquer le(s) changement(s):
+
+Nous maintenant une ip en plus qui est l'IP de la cart
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDMzODI5NzIsLTE4ODAxOTkzNDcsLT
-Q3OTg2MTIxLC0yMTY1MjA0NzAsLTMyNjQzMDE2NSwtMTk2Njcw
-ODg3OSwyMTM2ODA5MjUyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNTA1MDY1NTkzLC0xODgwMTk5MzQ3LC00Nz
+k4NjEyMSwtMjE2NTIwNDcwLC0zMjY0MzAxNjUsLTE5NjY3MDg4
+NzksMjEzNjgwOTI1Miw3MzA5OTgxMTZdfQ==
 -->
