@@ -207,21 +207,21 @@ Deux adresses ce sont ajouté c'est normal, la premier c'est l'ip du client qui 
 ### **C. Manip 3**
 
 **Sur l'hôte (votre PC)**
- * Afficher la table ARP
+ * Afficher la table ARP:
 ```
 
 ```
-  * Afficher de nouveau la table ARP
+  * Afficher de nouveau la table ARP:
 ```
 
 ```
- * Afficher encore la table ARP
- ```
+ * Afficher encore la table ARP:
+```
 
-
-  * Expliquer le(s) changement(s)
+```
+  * Expliquer le(s) changement(s):
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTMyNjk5NywtMjE2NTIwNDcwLC0zMj
-Y0MzAxNjUsLTE5NjY3MDg4NzksMjEzNjgwOTI1Miw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbLTQ3OTg2MTIxLC0yMTY1MjA0NzAsLTMyNj
+QzMDE2NSwtMTk2NjcwODg3OSwyMTM2ODA5MjUyLDczMDk5ODEx
+Nl19
 -->
