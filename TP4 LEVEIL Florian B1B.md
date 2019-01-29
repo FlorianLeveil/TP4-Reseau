@@ -127,7 +127,24 @@ traceroute to vm1.tp4 (10.1.0.10), 30 hops max, 60 byte packets
  1  vm3.tp4 (10.2.0.254)  0.285 ms  0.184 ms  0.221 ms
  2  vm3.tp4 (10.2.0.254)  0.140 ms !X  0.174 ms !X  0.198 ms !X
 ```
+# II. Spéléologie réseau
+## 1. ARP
+### **A. Manip 1**
+
+* Sur  `client1`
+    * afficher la table ARP:
+    -   **expliquer la seule ligne visible**
+* Sur  `server1`
+    -   afficher la table ARP
+    -   **expliquer la seule ligne visible**
+* Sur  `client1`
+    -   ping  `server1`
+    -   afficher la table ARP
+    -   **expliquer le changement**
+* Sur  `server1`
+    -   afficher la table ARP
+    -   **expliquer le changement**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY1OTkyNDEsLTMyNjQzMDE2NSwtMTk2Nj
-cwODg3OSwyMTM2ODA5MjUyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE4MDk3NTMyMzMsLTMyNjQzMDE2NSwtMT
+k2NjcwODg3OSwyMTM2ODA5MjUyLDczMDk5ODExNl19
 -->
