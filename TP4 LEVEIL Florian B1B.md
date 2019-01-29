@@ -296,9 +296,9 @@ Interface : 10.33.2.105 --- 0x17
   224.0.0.22            01-00-5e-00-00-16     statique
 ```
   * Expliquer le(s) changement(s):
-  Il y a eu de nouvelle connexions enregistrée quelque secondes. (Chaque
+  Il y a eu de nouvelle connexions enregistrée quelque secondes. (Chaque ligne ce met à jour toute les  secondes environ)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MTExNzY2NSwtNDc5ODYxMjEsLTIxNj
+eyJoaXN0b3J5IjpbMTc3MTI5NDQxMSwtNDc5ODYxMjEsLTIxNj
 UyMDQ3MCwtMzI2NDMwMTY1LC0xOTY2NzA4ODc5LDIxMzY4MDky
 NTIsNzMwOTk4MTE2XX0=
 -->
