@@ -76,7 +76,19 @@ Removed symlink /etc/systemd/system/dbus-org.fedoraproject.FirewallD1.service.
 ```
 
 **sur  `client1`:**
+* ip route show:
+ ```
+[root@vm1 network-scripts]# ip route show
+10.1.0.0/24 dev enp0s3 proto kernel scope link src 10.1.0.10 metric 100
+10.2.0.0/24 via 10.1.0.254 dev enp0s3 proto static metric 100
+```
+
+**sur  `serveur1`:**
+* ip route show:
+ ```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjQzMDE2NSwtMTk2NjcwODg3OSwyMT
-M2ODA5MjUyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTEzMjMxOTQ0NzUsLTMyNjQzMDE2NSwtMT
+k2NjcwODg3OSwyMTM2ODA5MjUyLDczMDk5ODExNl19
 -->
