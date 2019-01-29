@@ -178,13 +178,24 @@ PING vm2.tp4 (10.2.0.10) 56(84) bytes of data.
 
 **Sur  `router1`:**
 * afficher la table ARP
-  **expliquer le(s) ligne(s)**
-**Sur  `client1`:**
-    -   ping  `server1`
-4.  sur  `router1`
-    -   afficher la table ARP
-    -   **expliquer le(s) changement(s**
+```
+
+```
+**expliquer le(s) ligne(s)**
+
+ **Sur  `client1`:**
+   * ping  `server1`
+```
+
+```
+
+**Sur  `router1`:**
+  * afficher la table ARP
+```
+
+```
+   **expliquer le(s) changement(s**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3OTA1NzczOSwtMzI2NDMwMTY1LC0xOT
+eyJoaXN0b3J5IjpbLTIxNjUyMDQ3MCwtMzI2NDMwMTY1LC0xOT
 Y2NzA4ODc5LDIxMzY4MDkyNTIsNzMwOTk4MTE2XX0=
 -->
