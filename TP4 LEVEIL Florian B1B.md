@@ -211,7 +211,7 @@ Deux adresses ce sont ajouté c'est normal, la premier c'est l'ip du client qui 
 ```
 PS C:\Users\Florian> arp -a
 
-Interface : 192.168.102.2 --- 0xc
+Interface : 192.168.102.2 --- 0xc
   Adresse Internet      Adresse physique      Type
   192.168.102.255       ff-ff-ff-ff-ff-ff     statique
   224.0.0.22            01-00-5e-00-00-16     statique
@@ -220,7 +220,7 @@ Interface : 192.168.102.2 --- 0xc
   239.255.255.250       01-00-5e-7f-ff-fa     statique
   255.255.255.255       ff-ff-ff-ff-ff-ff     statique
 
-Interface : 10.2.0.1 --- 0xd
+Interface : 10.2.0.1 --- 0xd
   Adresse Internet      Adresse physique      Type
   10.2.0.10             08-00-27-94-ae-9d     dynamique
   10.2.0.255            ff-ff-ff-ff-ff-ff     statique
@@ -229,7 +229,7 @@ Interface : 10.2.0.1 --- 0xd
   224.0.0.252           01-00-5e-00-00-fc     statique
   239.255.255.250       01-00-5e-7f-ff-fa     statique
 
-Interface : 10.1.0.1 --- 0x16
+Interface : 10.1.0.1 --- 0x16
   Adresse Internet      Adresse physique      Type
   10.1.0.10             08-00-27-06-2e-31     dynamique
   10.1.0.254            08-00-27-88-74-c4     dynamique
@@ -239,7 +239,7 @@ Interface : 10.1.0.1 --- 0x16
   224.0.0.252           01-00-5e-00-00-fc     statique
   239.255.255.250       01-00-5e-7f-ff-fa     statique
 
-Interface : 10.33.2.105 --- 0x17
+Interface : 10.33.2.105 --- 0x17
   Adresse Internet      Adresse physique      Type
   10.33.0.14            7c-76-35-51-ad-8d     dynamique
   10.33.0.68            90-cd-b6-64-bc-e7     dynamique
@@ -255,7 +255,22 @@ Interface : 10.33.2.105 --- 0x17
 ```
   * Afficher de nouveau la table ARP:
 ```
+Interface : 192.168.102.2 --- 0xc
+  Adresse Internet      Adresse physique      Type
+  224.0.0.22            01-00-5e-00-00-16     statique
 
+Interface : 10.2.0.1 --- 0xd
+  Adresse Internet      Adresse physique      Type
+  224.0.0.22            01-00-5e-00-00-16     statique
+
+Interface : 10.1.0.1 --- 0x16
+  Adresse Internet      Adresse physique      Type
+  224.0.0.22            01-00-5e-00-00-16     statique
+
+Interface : 10.33.2.105 --- 0x17
+  Adresse Internet      Adresse physique      Type
+  10.33.3.253           00-12-00-40-4c-bf     dynamique
+  224.0.0.22            01-00-5e-00-00-16     statique
 ```
  * Afficher encore la table ARP:
 ```
@@ -263,7 +278,7 @@ Interface : 10.33.2.105 --- 0x17
 ```
   * Expliquer le(s) changement(s):
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDg3NzgwMzIsLTQ3OTg2MTIxLC0yMT
-Y1MjA0NzAsLTMyNjQzMDE2NSwtMTk2NjcwODg3OSwyMTM2ODA5
-MjUyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMjgxOTIzMTA0LC00Nzk4NjEyMSwtMjE2NT
+IwNDcwLC0zMjY0MzAxNjUsLTE5NjY3MDg4NzksMjEzNjgwOTI1
+Miw3MzA5OTgxMTZdfQ==
 -->
