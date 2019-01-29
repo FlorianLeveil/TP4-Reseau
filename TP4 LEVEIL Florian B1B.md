@@ -179,14 +179,19 @@ PING vm2.tp4 (10.2.0.10) 56(84) bytes of data.
 **Sur  `router1`:**
 * afficher la table ARP
 ```
-
+[root@vm3 ~]# ip neigh show
+10.1.0.1 dev enp0s3 lladdr 0a:00:27:00:00:16 DELAY
 ```
-**expliquer le(s) ligne(s)**
+C'est l'adresse de broadcast
 
  **Sur  `client1`:**
    * ping  `server1`
 ```
-
+[root@vm1 network-scripts]# ping vm2.tp4
+PING vm2.tp4 (10.2.0.10) 56(84) bytes of data.
+64 bytes from vm2.tp4 (10.2.0.10): icmp_seq=1 ttl=63 time=1.18 ms
+64 bytes from vm2.tp4 (10.2.0.10): icmp_seq=2 ttl=63 time=0.732 ms
+64 bytes from vm2.tp4 (10.2.0.10): icmp_seq=3 ttl=63 time=0.739 ms
 ```
 
 **Sur  `router1`:**
@@ -196,6 +201,7 @@ PING vm2.tp4 (10.2.0.10) 56(84) bytes of data.
 ```
    **expliquer le(s) changement(s**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNjUyMDQ3MCwtMzI2NDMwMTY1LC0xOT
-Y2NzA4ODc5LDIxMzY4MDkyNTIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNDg1MjQ4NDE4LC0yMTY1MjA0NzAsLTMyNj
+QzMDE2NSwtMTk2NjcwODg3OSwyMTM2ODA5MjUyLDczMDk5ODEx
+Nl19
 -->
