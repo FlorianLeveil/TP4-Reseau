@@ -309,7 +309,7 @@ Interface : 10.33.2.105 --- 0x17
 ```
 * activer la carte NAT
 ```
-
+Rajouter une carte réseau dans la VM
 ```
 * joindre internet (`curl google.com`  par exemple)
 ```
@@ -322,7 +322,7 @@ Interface : 10.33.2.105 --- 0x17
 **expliquer le(s) changement(s)**
  expliquer quelle machine porte l'IP qui vient de pop dans cette table ARP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NTg5MjA4NiwtMTg4MDE5OTM0NywtND
-c5ODYxMjEsLTIxNjUyMDQ3MCwtMzI2NDMwMTY1LC0xOTY2NzA4
-ODc5LDIxMzY4MDkyNTIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEzMjA1MDkxNTQsLTE4ODAxOTkzNDcsLT
+Q3OTg2MTIxLC0yMTY1MjA0NzAsLTMyNjQzMDE2NSwtMTk2Njcw
+ODg3OSwyMTM2ODA5MjUyLDczMDk5ODExNl19
 -->
