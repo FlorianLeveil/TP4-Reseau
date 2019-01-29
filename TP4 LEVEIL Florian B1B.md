@@ -318,7 +318,13 @@ Interface : 10.33.2.105 --- 0x17
 ```
 * joindre internet (`curl google.com`  par exemple)
 ```
-
+[root@vm1 ~]# curl google.com
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
 ```
 * afficher la table ARP
 ```
@@ -327,7 +333,7 @@ Interface : 10.33.2.105 --- 0x17
 **expliquer le(s) changement(s)**
  expliquer quelle machine porte l'IP qui vient de pop dans cette table ARP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NjE1NjA2NCwtMTg4MDE5OTM0NywtND
-c5ODYxMjEsLTIxNjUyMDQ3MCwtMzI2NDMwMTY1LC0xOTY2NzA4
-ODc5LDIxMzY4MDkyNTIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE0MDMzODI5NzIsLTE4ODAxOTkzNDcsLT
+Q3OTg2MTIxLC0yMTY1MjA0NzAsLTMyNjQzMDE2NSwtMTk2Njcw
+ODg3OSwyMTM2ODA5MjUyLDczMDk5ODExNl19
 -->
