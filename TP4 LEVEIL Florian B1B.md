@@ -21,17 +21,20 @@ Configuration VM Routeur:
 **Nom de domaine:**
 VM Client:
 ```
-
+[root@vm1 ~]# hostname
+vm1.tp4
 ```
 VM Serveur:
 ```
-
+[root@vm2 ~]# hostname
+vm2.tp4
 ```
 VM Routeur:
 ```
-
+[root@vm3 ~]# hostname
+vm3.tp4
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTkyNzE5MjIsLTE5NjY3MDg4NzksMj
+eyJoaXN0b3J5IjpbLTExNTAwNzY3NTYsLTE5NjY3MDg4NzksMj
 EzNjgwOTI1Miw3MzA5OTgxMTZdfQ==
 -->
