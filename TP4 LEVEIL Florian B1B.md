@@ -207,16 +207,21 @@ Deux adresses ce sont ajouté c'est normal, la premier c'est l'ip du client qui 
 ### **C. Manip 3**
 
 **Sur l'hôte (votre PC)**
- * afficher la table ARP
+ * Afficher la table ARP
 ```
 
 ```
-  * afficher de nouveau la table ARP
-    -   attendre un peu
-    -   afficher encore la table ARP
-    -   **expliquer le(s) changement(s)**  (c'est lié à votre  [passerelle](https://github.com/It4lik/B1-Reseau-2018/blob/master/cours/lexique.md#passerelle-ou-gateway)
+  * Afficher de nouveau la table ARP
+```
+
+```
+ * Afficher encore la table ARP
+ ```
+
+
+  * Expliquer le(s) changement(s)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTEwODIwNTAsLTIxNjUyMDQ3MCwtMz
-I2NDMwMTY1LC0xOTY2NzA4ODc5LDIxMzY4MDkyNTIsNzMwOTk4
-MTE2XX0=
+eyJoaXN0b3J5IjpbLTI3OTMyNjk5NywtMjE2NTIwNDcwLC0zMj
+Y0MzAxNjUsLTE5NjY3MDg4NzksMjEzNjgwOTI1Miw3MzA5OTgx
+MTZdfQ==
 -->
