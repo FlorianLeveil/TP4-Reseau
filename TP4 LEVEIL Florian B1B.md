@@ -131,15 +131,15 @@ traceroute to vm1.tp4 (10.1.0.10), 30 hops max, 60 byte packets
 ## 1. ARP
 ### **A. Manip 1**
 
-* Sur  `client1`
-    * Afficher la table ARP:
+**Sur  `client1:`**
+  * Afficher la table ARP:
 ```
 [root@vm1 network-scripts]# ip neigh show
 10.1.0.1 dev enp0s3 lladdr 0a:00:27:00:00:16 REACHABLE
 ```
  (C'est l'adresse de Broadcast)
-* Sur  `server1`
-    * Afficher la table ARP
+**Sur  `server1`:**
+ * Afficher la table ARP
 ```
 [root@vm2 ~]# ip neigh show
 10.2.0.1 dev enp0s3 lladdr 0a:00:27:00:00:0d REACHABLE
@@ -152,14 +152,17 @@ traceroute to vm1.tp4 (10.1.0.10), 30 hops max, 60 byte packets
 
 ```
  * afficher la table ARP
-    -   **expliquer le changement**
+```
+
+```
+ **expliquer le changement**
 **Sur  `server1`:**
 * afficher la table ARP
 ```
 
 ```
-    -   **expliquer le changement**
+ **expliquer le changement**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNzQxOTQ4NSwtMzI2NDMwMTY1LC0xOT
-Y2NzA4ODc5LDIxMzY4MDkyNTIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE4NDY3OTQxLC0zMjY0MzAxNjUsLTE5Nj
+Y3MDg4NzksMjEzNjgwOTI1Miw3MzA5OTgxMTZdfQ==
 -->
