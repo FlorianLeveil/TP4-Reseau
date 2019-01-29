@@ -146,14 +146,20 @@ traceroute to vm1.tp4 (10.1.0.10), 30 hops max, 60 byte packets
 ```
  (C'est l'adresse de Broadcast)
 
-* Sur  `client1`
-    * ping  `server1`:
-    - afficher la table ARP
+**Sur  `client1`**:
+ * ping  `server1`:
+```
+
+```
+ * afficher la table ARP
     -   **expliquer le changement**
-* Sur  `server1`
-    -   afficher la table ARP
+**Sur  `server1`:**
+* afficher la table ARP
+```
+
+```
     -   **expliquer le changement**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MTU2NjA5LC0zMjY0MzAxNjUsLTE5Nj
-Y3MDg4NzksMjEzNjgwOTI1Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTcyNzQxOTQ4NSwtMzI2NDMwMTY1LC0xOT
+Y2NzA4ODc5LDIxMzY4MDkyNTIsNzMwOTk4MTE2XX0=
 -->
