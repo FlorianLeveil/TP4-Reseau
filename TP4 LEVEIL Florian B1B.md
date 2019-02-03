@@ -365,10 +365,12 @@ rtt min/avg/max/mdev = 0.687/0.806/1.155/0.202 ms
 3. Sur `router1`:
 * Vérification de la présence du fichier  `ping.pcap`  avec un  `ls`:
 ```
-
+[root@vm3 /]# ls
+bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  ping.pcap  proc  root  run  sbin  srv  sys  tmp  usr  var
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzUxNzIwNzAsOTYwNjg2Mzg1LC0xOD
+eyJoaXN0b3J5IjpbLTEyNzc0NjQ1MTUsOTYwNjg2Mzg1LC0xOD
 gwMTk5MzQ3LC00Nzk4NjEyMSwtMjE2NTIwNDcwLC0zMjY0MzAx
 NjUsLTE5NjY3MDg4NzksMjEzNjgwOTI1Miw3MzA5OTgxMTZdfQ
 ==
