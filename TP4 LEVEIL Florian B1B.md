@@ -362,9 +362,9 @@ PING vm2.tp4 (10.2.0.10) 56(84) bytes of data.
 4 packets transmitted, 4 received, 0% packet loss, time 3003ms
 rtt min/avg/max/mdev = 0.687/0.806/1.155/0.202 ms
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njg0MzY1NzksOTYwNjg2Mzg1LC0xOD
-gwMTk5MzQ3LC00Nzk4NjEyMSwtMjE2NTIwNDcwLC0zMjY0MzAx
-NjUsLTE5NjY3MDg4NzksMjEzNjgwOTI1Miw3MzA5OTgxMTZdfQ
-==
+eyJoaXN0b3J5IjpbNjg4ODM0Njk5LDk2MDY4NjM4NSwtMTg4MD
+E5OTM0NywtNDc5ODYxMjEsLTIxNjUyMDQ3MCwtMzI2NDMwMTY1
+LC0xOTY2NzA4ODc5LDIxMzY4MDkyNTIsNzMwOTk4MTE2XX0=
 -->
