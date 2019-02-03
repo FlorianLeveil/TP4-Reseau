@@ -362,9 +362,10 @@ PING vm2.tp4 (10.2.0.10) 56(84) bytes of data.
 4 packets transmitted, 4 received, 0% packet loss, time 3003ms
 rtt min/avg/max/mdev = 0.687/0.806/1.155/0.202 ms
 ```
-
+3. Sur `router1`:
+* Vérification de la présence du fichier  `ping.pcap`  avec un  `ls`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg4ODM0Njk5LDk2MDY4NjM4NSwtMTg4MD
-E5OTM0NywtNDc5ODYxMjEsLTIxNjUyMDQ3MCwtMzI2NDMwMTY1
-LC0xOTY2NzA4ODc5LDIxMzY4MDkyNTIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTI0Nzg4MDM2Niw5NjA2ODYzODUsLTE4OD
+AxOTkzNDcsLTQ3OTg2MTIxLC0yMTY1MjA0NzAsLTMyNjQzMDE2
+NSwtMTk2NjcwODg3OSwyMTM2ODA5MjUyLDczMDk5ODExNl19
 -->
