@@ -345,9 +345,26 @@ Nous maintenant une ip/mac en plus qui appartient à la nouvelle carte réseau q
 tcpdump: listening on enp0s3, link-type EN10MB (Ethernet), capture size 262144 bytes
 ```
 2. sur  `client1`:
-* - vider la table ARP
+* Vider la table ARP
+```
+[root@vm1 ~]# sudo ip neigh flush all
+```
+* Envoyer 4 pings à  `server1`:
+```
+[root@vm1 ~]# ping -c 4 vm2.tp4
+PING vm2.tp4 (10.2.0.10) 56(84) bytes of data.
+64 bytes from vm2.tp4 (10.2.0.10): icmp_seq=1 ttl=63 time=1.15 ms
+64 bytes from vm2.tp4 (10.2.0.10): icmp_seq=2 ttl=63 time=0.696 ms
+64 bytes from vm2.tp4 (10.2.0.10): icmp_seq=3 ttl=63 time=0.687 ms
+64 bytes from vm2.tp4 (10.2.0.10): icmp_seq=4 ttl=63 time=0.687 ms
+
+--- vm2.tp4 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3003ms
+rtt min/avg/max/mdev = 0.687/0.806/1.155/0.202 ms
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODkwNjk5OCw5NjA2ODYzODUsLTE4OD
-AxOTkzNDcsLTQ3OTg2MTIxLC0yMTY1MjA0NzAsLTMyNjQzMDE2
-NSwtMTk2NjcwODg3OSwyMTM2ODA5MjUyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE2Njg0MzY1NzksOTYwNjg2Mzg1LC0xOD
+gwMTk5MzQ3LC00Nzk4NjEyMSwtMjE2NTIwNDcwLC0zMjY0MzAx
+NjUsLTE5NjY3MDg4NzksMjEzNjgwOTI1Miw3MzA5OTgxMTZdfQ
+==
 -->
