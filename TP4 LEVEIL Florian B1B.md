@@ -338,9 +338,16 @@ The document has moved
 Nous maintenant une ip/mac en plus qui appartient à la nouvelle carte réseau que nous avons activé.
 ## 2. Wireshark
 ## A. Interception d'ARP et  `ping`
-1. sur  `router1`
+1. sur  `router1`:
+* lancer Wireshark pour enregistrer le trafic
+```
+[root@vm3 /]# sudo tcpdump -i enp0s3 -w ping.pcap
+tcpdump: listening on enp0s3, link-type EN10MB (Ethernet), capture size 262144 bytes
+```
+2. sur  `client1`:
+* - vider la table ARP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5Nzk3Mjc1OCw5NjA2ODYzODUsLTE4OD
+eyJoaXN0b3J5IjpbMjAyODkwNjk5OCw5NjA2ODYzODUsLTE4OD
 AxOTkzNDcsLTQ3OTg2MTIxLC0yMTY1MjA0NzAsLTMyNjQzMDE2
 NSwtMTk2NjcwODg3OSwyMTM2ODA5MjUyLDczMDk5ODExNl19
 -->
