@@ -336,8 +336,11 @@ The document has moved
 * expliquer le(s) changement(s):
 
 Nous maintenant une ip/mac en plus qui appartient à la nouvelle carte réseau que nous avons activé.
+## 2. Wireshark
+## A. Interception d'ARP et  `ping`
+1. sur  `router1`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYwNjg2Mzg1LC0xODgwMTk5MzQ3LC00Nz
-k4NjEyMSwtMjE2NTIwNDcwLC0zMjY0MzAxNjUsLTE5NjY3MDg4
-NzksMjEzNjgwOTI1Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTE5Nzk3Mjc1OCw5NjA2ODYzODUsLTE4OD
+AxOTkzNDcsLTQ3OTg2MTIxLC0yMTY1MjA0NzAsLTMyNjQzMDE2
+NSwtMTk2NjcwODg3OSwyMTM2ODA5MjUyLDczMDk5ODExNl19
 -->
