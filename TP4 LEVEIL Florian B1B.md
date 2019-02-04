@@ -376,9 +376,16 @@ bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  ping.pcap  proc  root  r
 
 ## B. Interception d'une communication  `netcat`
 
-1. s'oc
+1. s'occuper du firewall sur le serveur1:
+```
+[root@vm1 ~]# firewall-cmd --add-port=5454/tcp --permanent
+success
+```
+2. Videz les tables ARP de tout le monde:
+* Serveur1:
+* Client
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MzAwOTA5NiwtMTIxODg0OTcyNyw0NT
+eyJoaXN0b3J5IjpbMjEyMTk3MTc5OCwtMTIxODg0OTcyNyw0NT
 k3ODk2MTksMjE2NjU2MzIzLC0xMjc3NDY0NTE1LDk2MDY4NjM4
 NSwtMTg4MDE5OTM0NywtNDc5ODYxMjEsLTIxNjUyMDQ3MCwtMz
 I2NDMwMTY1LC0xOTY2NzA4ODc5LDIxMzY4MDkyNTIsNzMwOTk4
