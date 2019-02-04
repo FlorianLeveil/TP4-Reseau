@@ -374,10 +374,11 @@ bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  ping.pcap  proc  root  r
 
  <img src="./Capture_ping_wirechark.PNG">
 
-* Essayez de comprendre un peu toutes les lignes (il devrait y en avoir une dizaine tout au plus !)
+## B. Interception d'une communication  `netcat`
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTIxMzM1MDUsNDU5Nzg5NjE5LDIxNj
+eyJoaXN0b3J5IjpbLTEyMTg4NDk3MjcsNDU5Nzg5NjE5LDIxNj
 Y1NjMyMywtMTI3NzQ2NDUxNSw5NjA2ODYzODUsLTE4ODAxOTkz
 NDcsLTQ3OTg2MTIxLC0yMTY1MjA0NzAsLTMyNjQzMDE2NSwtMT
 k2NjcwODg3OSwyMTM2ODA5MjUyLDczMDk5ODExNl19
