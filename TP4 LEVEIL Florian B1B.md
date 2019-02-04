@@ -368,10 +368,14 @@ rtt min/avg/max/mdev = 0.687/0.806/1.155/0.202 ms
 [root@vm3 /]# ls
 bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  ping.pcap  proc  root  run  sbin  srv  sys  tmp  usr  var
 ```
+4. sur l'hôte (votre PC) :
+
+* Ouvrir le fichier  `ping.pcap`  dans Wireshark
+* Essayez de comprendre un peu toutes les lignes (il devrait y en avoir une dizaine tout au plus !)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzc0NjQ1MTUsOTYwNjg2Mzg1LC0xOD
-gwMTk5MzQ3LC00Nzk4NjEyMSwtMjE2NTIwNDcwLC0zMjY0MzAx
-NjUsLTE5NjY3MDg4NzksMjEzNjgwOTI1Miw3MzA5OTgxMTZdfQ
-==
+eyJoaXN0b3J5IjpbMjE2NjU2MzIzLC0xMjc3NDY0NTE1LDk2MD
+Y4NjM4NSwtMTg4MDE5OTM0NywtNDc5ODYxMjEsLTIxNjUyMDQ3
+MCwtMzI2NDMwMTY1LC0xOTY2NzA4ODc5LDIxMzY4MDkyNTIsNz
+MwOTk4MTE2XX0=
 -->
