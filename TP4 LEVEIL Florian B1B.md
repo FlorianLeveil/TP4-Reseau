@@ -384,20 +384,30 @@ success
 2. Videz les tables ARP de tout le monde:
 * Serveur1:
 ```
-
+[root@vm1 ~]# sudo ip neigh flush all
+[root@vm1 ~]# ip neigh show
+10.1.0.1 dev enp0s3 lladdr 0a:00:27:00:00:16 DELAY
+[root@vm1 ~]#
 ```
 * Client1:
 ```
-
+[root@vm2 ~]# sudo ip neigh flush all
+[root@vm2 ~]# ip neigh show
+10.2.0.1 dev enp0s3 lladdr 0a:00:27:00:00:0d DELAY
+[root@vm2 ~]#
 ```
 * Routeur:
 ```
-
+[root@vm3 /]# sudo ip neigh flush all
+[root@vm3 /]# ip neigh show
+10.1.0.1 dev enp0s3 lladdr 0a:00:27:00:00:16 DELAY
+[root@vm3 /]#
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjg1NTM5NzYsLTEyMTg4NDk3MjcsND
-U5Nzg5NjE5LDIxNjY1NjMyMywtMTI3NzQ2NDUxNSw5NjA2ODYz
-ODUsLTE4ODAxOTkzNDcsLTQ3OTg2MTIxLC0yMTY1MjA0NzAsLT
-MyNjQzMDE2NSwtMTk2NjcwODg3OSwyMTM2ODA5MjUyLDczMDk5
-ODExNl19
+eyJoaXN0b3J5IjpbMTY0Nzk3NzM2NCwtMTIxODg0OTcyNyw0NT
+k3ODk2MTksMjE2NjU2MzIzLC0xMjc3NDY0NTE1LDk2MDY4NjM4
+NSwtMTg4MDE5OTM0NywtNDc5ODYxMjEsLTIxNjUyMDQ3MCwtMz
+I2NDMwMTY1LC0xOTY2NzA4ODc5LDIxMzY4MDkyNTIsNzMwOTk4
+MTE2XX0=
 -->
