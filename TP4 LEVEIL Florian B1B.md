@@ -372,13 +372,13 @@ bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  ping.pcap  proc  root  r
 
 * Ouvrir le fichier  `ping.pcap`  dans Wireshark:
 
- <img src="./Capture_ping_wirechark.PNG>
+ <img src="./Capture_ping_wirechark.PNG">
 
 * Essayez de comprendre un peu toutes les lignes (il devrait y en avoir une dizaine tout au plus !)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MDY1NTQxLDQ1OTc4OTYxOSwyMTY2NT
-YzMjMsLTEyNzc0NjQ1MTUsOTYwNjg2Mzg1LC0xODgwMTk5MzQ3
-LC00Nzk4NjEyMSwtMjE2NTIwNDcwLC0zMjY0MzAxNjUsLTE5Nj
-Y3MDg4NzksMjEzNjgwOTI1Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTExNTIxMzM1MDUsNDU5Nzg5NjE5LDIxNj
+Y1NjMyMywtMTI3NzQ2NDUxNSw5NjA2ODYzODUsLTE4ODAxOTkz
+NDcsLTQ3OTg2MTIxLC0yMTY1MjA0NzAsLTMyNjQzMDE2NSwtMT
+k2NjcwODg3OSwyMTM2ODA5MjUyLDczMDk5ODExNl19
 -->
