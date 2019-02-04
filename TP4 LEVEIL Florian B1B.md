@@ -404,14 +404,22 @@ success
 [root@vm3 /]#
 ```
 3. Ouvrir netcat et échangez quelques messages
+* Serveur1:
+```
 
+```
+* Client1:
+```
+
+```
+* Routeur:
 ```
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzYyMTgyNjIsLTEyMTg4NDk3MjcsND
-U5Nzg5NjE5LDIxNjY1NjMyMywtMTI3NzQ2NDUxNSw5NjA2ODYz
-ODUsLTE4ODAxOTkzNDcsLTQ3OTg2MTIxLC0yMTY1MjA0NzAsLT
-MyNjQzMDE2NSwtMTk2NjcwODg3OSwyMTM2ODA5MjUyLDczMDk5
-ODExNl19
+eyJoaXN0b3J5IjpbMTY4OTA2MzM1NSwtMTIxODg0OTcyNyw0NT
+k3ODk2MTksMjE2NjU2MzIzLC0xMjc3NDY0NTE1LDk2MDY4NjM4
+NSwtMTg4MDE5OTM0NywtNDc5ODYxMjEsLTIxNjUyMDQ3MCwtMz
+I2NDMwMTY1LC0xOTY2NzA4ODc5LDIxMzY4MDkyNTIsNzMwOTk4
+MTE2XX0=
 -->
