@@ -376,10 +376,11 @@ bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  ping.pcap  proc  root  r
 
 ## B. Interception d'une communication  `netcat`
 
-
+1. s'oc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTg4NDk3MjcsNDU5Nzg5NjE5LDIxNj
-Y1NjMyMywtMTI3NzQ2NDUxNSw5NjA2ODYzODUsLTE4ODAxOTkz
-NDcsLTQ3OTg2MTIxLC0yMTY1MjA0NzAsLTMyNjQzMDE2NSwtMT
-k2NjcwODg3OSwyMTM2ODA5MjUyLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTM0MzAwOTA5NiwtMTIxODg0OTcyNyw0NT
+k3ODk2MTksMjE2NjU2MzIzLC0xMjc3NDY0NTE1LDk2MDY4NjM4
+NSwtMTg4MDE5OTM0NywtNDc5ODYxMjEsLTIxNjUyMDQ3MCwtMz
+I2NDMwMTY1LC0xOTY2NzA4ODc5LDIxMzY4MDkyNTIsNzMwOTk4
+MTE2XX0=
 -->
