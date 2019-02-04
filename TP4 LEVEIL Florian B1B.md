@@ -413,14 +413,17 @@ cool
 ```
 * Client1:
 ```
-
+[root@vm1 ~]# nc vm2.tp4 5454
+wesh
+ça marche
+cool
 ```
 * Routeur:
 ```
-
+sudo tcpdump -i enp0s3 -w netcat_ok.pcap
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NzgxNDcxMywtMTIxODg0OTcyNyw0NT
+eyJoaXN0b3J5IjpbMjA1MDI3ODk1MywtMTIxODg0OTcyNyw0NT
 k3ODk2MTksMjE2NjU2MzIzLC0xMjc3NDY0NTE1LDk2MDY4NjM4
 NSwtMTg4MDE5OTM0NywtNDc5ODYxMjEsLTIxNjUyMDQ3MCwtMz
 I2NDMwMTY1LC0xOTY2NzA4ODc5LDIxMzY4MDkyNTIsNzMwOTk4
