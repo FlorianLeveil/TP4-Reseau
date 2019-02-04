@@ -406,7 +406,10 @@ success
 3. Ouvrir netcat et échangez quelques messages
 * Serveur1:
 ```
-
+[root@vm2 ~]# nc -l 5454
+wesh
+ça marche
+cool
 ```
 * Client1:
 ```
@@ -417,7 +420,7 @@ success
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4OTA2MzM1NSwtMTIxODg0OTcyNyw0NT
+eyJoaXN0b3J5IjpbMTk4NzgxNDcxMywtMTIxODg0OTcyNyw0NT
 k3ODk2MTksMjE2NjU2MzIzLC0xMjc3NDY0NTE1LDk2MDY4NjM4
 NSwtMTg4MDE5OTM0NywtNDc5ODYxMjEsLTIxNjUyMDQ3MCwtMz
 I2NDMwMTY1LC0xOTY2NzA4ODc5LDIxMzY4MDkyNTIsNzMwOTk4
